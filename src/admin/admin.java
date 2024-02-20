@@ -119,7 +119,7 @@ public class admin {
     }
     public void makeconnection() {
     	// JDBC URL, username, and password of MySQL server
-        String host = "jdbc:mysql://localhost/jail_management_system";
+        String host = "jdbc:mysql://localhost/kwizera_bonheur_jms";
         String user = "root";
         String password = "";
     }
@@ -170,7 +170,7 @@ public class admin {
     
     public void login() {
     	makeconnection();
-    	String host = "jdbc:mysql://localhost/jail_management_system";
+    	String host = "jdbc:mysql://localhost/kwizera_bonheur_jms";
         String user = "root";
         String password = "";
         String sql = "SELECT * FROM admin WHERE email = ? AND password = ?";

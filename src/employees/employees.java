@@ -52,7 +52,7 @@ public class employees extends JFrame {
 	public void table_load() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jail_management_system","root","");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kwizera_bonheur_jms","root","");
 			Statement st = con.createStatement();
 			String query= "select admin_id, fname, lname, id_number, phone, gender, martial_status, DoB, email, role from admin";
 			ResultSet rs= st.executeQuery(query);

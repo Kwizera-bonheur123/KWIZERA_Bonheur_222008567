@@ -126,12 +126,12 @@ public class employee_entity {
     }
     public void makeconnection() {
     	// JDBC URL, username, and password of MySQL server
-        String host = "jdbc:mysql://localhost/jail_management_system";
+        String host = "jdbc:mysql://localhost/kwizera_bonheur_jms";
         String user = "root";
         String password = "";
     }
     public void insertData() {
-        String host = "jdbc:mysql://localhost/jail_management_system";
+        String host = "jdbc:mysql://localhost/kwizera_bonheur_jms";
         String user = "root";
         String password = "";
 
@@ -176,7 +176,7 @@ public class employee_entity {
 
 public void delete(int id) {
 	// JDBC URL, username, and password of MySQL server
-    String url = "jdbc:mysql://localhost/jail_management_system";
+    String url = "jdbc:mysql://localhost/kwizera_bonheur_jms";
     String user = "root";
     String password = "";
 
@@ -213,7 +213,7 @@ public void delete(int id) {
 
 public void update(int id) {
 	// JDBC URL, username, and password of MySQL server
-    String url = "jdbc:mysql://localhost/jail_management_system";
+    String url = "jdbc:mysql://localhost/kwizera_bonheur_jms";
     String user = "root";
     String password = "";
 
